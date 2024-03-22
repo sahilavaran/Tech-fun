@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: rgba(100, 100, 100, 0.4);
+  z-index: 1;
+}
+
+.feature {
+  position: relative;
+  height: 100vh;
+  background-image: url("./glowing-spaceship-orbits-planet-stunning-galaxy-generated-by-ai_188544-9625.avif");
+  background-size: cover;
+  background-position: center center;
+}
+.galaxy {
+  background-image: url("./warped-space-3840x2160.jpg");
+}
+.galaxy1 {
+  background-image: url("./4k-space-background-gx2rdfrem5bvjbqi.jpg");
+}
+h1 {
+  padding: 15px;
+}
+
+a {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  text-decoration: none;
+}
+.title1 {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+#readmore {
+  border: 1px solid white;
+  text-decoration: none;
+}
+#readmore:hover {
+  background-color: green;
+}
+nav {
+  display: flex;
+  column-gap: 15px;
+  padding-right: 40px;
+}
